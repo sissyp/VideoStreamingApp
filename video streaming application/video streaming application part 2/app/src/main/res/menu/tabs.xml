@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/tab_channels"
+        android:icon="@drawable/ic_homepage"
+        android:title="Channels" />
+    <item
+        android:id="@+id/tab_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search" />
+    <item
+        android:id="@+id/tab_upload_video"
+        android:icon="@drawable/ic_upload_video"
+        android:title="Upload Video" />
+
+</menu>

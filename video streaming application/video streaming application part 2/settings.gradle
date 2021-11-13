@@ -1,0 +1,2 @@
+rootProject.name = "video_streaming"
+include ':app'
