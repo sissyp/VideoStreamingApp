@@ -12,10 +12,15 @@ From the downloaded folder the dataset subfolder should be removed and placed in
 The broker that listens to port 200 has been defined as the main broker, who is responsible for the communication with the appnodes (producers and consumers).
 
 Instructions in order to run and execute the code in visual studio code: 
+
 New Terminal -> javac *.java -> java Broker 192.168.1.11 200 
+
 New Terminal -> java Broker 192.168.1.11 888
+
 New Terminal -> java Broker 192.168.1.11 4675
+
 New Terminal -> java Publisher 192.168.1.11 1234 channel_name1
+
 New Terminal -> java Publisher 192.168.1.11 743 channel_name2 
 
 where channel_name1, channel_name2 are the names of the channels for each user, 
